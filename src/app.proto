@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package app;
+
+service AppController {
+    rpc getHello(UserName) returns (GreetMsg);
+}
+
+message UserName{
+    string data = 1;
+}
+
+message GreetMsg {
+ string data = 1;
+}

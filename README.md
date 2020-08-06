@@ -1,0 +1,1 @@
+ App is running on localhost:3000/graphql
